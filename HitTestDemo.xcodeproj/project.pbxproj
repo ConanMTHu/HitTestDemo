@@ -14,6 +14,7 @@
 		A7AE6E981B3D341D00B389B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE6E961B3D341D00B389B4 /* LaunchScreen.storyboard */; };
 		A7AE6EA31B3D341E00B389B4 /* HitTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE6EA21B3D341E00B389B4 /* HitTestDemoTests.swift */; };
 		A7AE6EAE1B3D341E00B389B4 /* HitTestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE6EAD1B3D341E00B389B4 /* HitTestDemoUITests.swift */; };
+		A7AE6EBC1B3D343900B389B4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE6EBB1B3D343900B389B4 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A7AE6EA91B3D341E00B389B4 /* HitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AE6EAD1B3D341E00B389B4 /* HitTestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestDemoUITests.swift; sourceTree = "<group>"; };
 		A7AE6EAF1B3D341E00B389B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE6EBB1B3D343900B389B4 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A7AE6E8D1B3D341D00B389B4 /* AppDelegate.swift */,
 				A7AE6E8F1B3D341D00B389B4 /* ViewController.swift */,
+				A7AE6EBB1B3D343900B389B4 /* RootView.swift */,
 				A7AE6E911B3D341D00B389B4 /* Main.storyboard */,
 				A7AE6E941B3D341D00B389B4 /* Assets.xcassets */,
 				A7AE6E961B3D341D00B389B4 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				A7AE6E901B3D341D00B389B4 /* ViewController.swift in Sources */,
 				A7AE6E8E1B3D341D00B389B4 /* AppDelegate.swift in Sources */,
+				A7AE6EBC1B3D343900B389B4 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HitTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HMT.HitTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HitTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HMT.HitTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
